@@ -10,16 +10,21 @@
   Make sure to do the last part with the close curly brace, too,
   so you can save your CSS file after each property.
 */
+.name-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
 
 /* .name-grid { */
 
-  /* Apply the display: grid; to the element */
+/* Apply the display: grid; to the element */
 
-  /* Apply four equal-sized columns to the grid */
-  /* grid-template-columns: repeat(4, 1fr); */
+/* Apply four equal-sized columns to the grid */
+/* grid-template-columns: repeat(4, 1fr); */
 
-  /* Apply a gap between all of the children */
-  /* gap: 18px; */
+/* Apply a gap between all of the children */
+/* gap: 18px; */
 
 /* Close the CSS rule. */
 /* } */

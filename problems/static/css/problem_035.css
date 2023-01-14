@@ -13,6 +13,12 @@
   The grid needs to have four equally-sized columns with a gap
   of 18px between rows and columns.
 */
+.name-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+
+}
 
 /* Your definition for the "name-grid" CSS rule, here. */
 
@@ -24,7 +30,11 @@
     box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.2);
     padding: 12px;
 */
+.name-grid-entry {
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.2);
+  padding: 12px;
 
+}
 
 
 /*
@@ -32,3 +42,7 @@
   class. Give it the following property.
     font-weight: bold;
 */
+.name-grid-name {
+  font-weight: bold;
+
+}
